@@ -1,0 +1,5 @@
+print('the 1st day is ready')
+a = int(input('please input a:'))
+b = int(input('please input b:'))
+c = int(input('please input c:'))
+print(f'a * b = {a * b}, and the result is {a * b == c}')
