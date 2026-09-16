@@ -17,9 +17,9 @@
 
 ## 对今天的理解：
 - 学会了利用 Shell 命令行运行程序
--  | 是管道，其作用为将左侧命令的标准输出传给右侧命令的标准输入，在此处是将左侧 printf 函数输出的字符串传到 Day01/practice.py 的输入中
--  \> 是输出重定向，其作用是将 Python 程序的 stdout 写入文件，在此处是将 Day01/practice.py 的 stdout 放入 Day03/logs/check-xxx-xx/log 中
--  2>&1 是文件描述符重定向，其作用是将 2 代表的 stderr 重定向指到 1 代表的 stdout 的位置(&) ，在此处是将 Day01/practice.py 的 stderr 也一并写进 log 中
+-  | 是管道，其作用为将左侧命令的标准输出传给右侧命令的标准输入，在此处是将左侧 printf 命令输出的字符串传到 Day01/practice.py 的输入中
+-  \> 是输出重定向，其作用是将 Python 程序的 stdout 写入文件，在此处是将 Day01/practice.py 的 stdout 放入 Day03/logs/check-xxx-xx.log 中
+-  2>&1 是文件描述符重定向，其作用是将 2 代表的 stderr 重定向指到 &1 代表的 stdout 的位置 ，在此处是将 Day01/practice.py 的 stderr 也一并写进 log 中，注意此处由于 2 在文件描述符重定向 \> 之前，故 Shell 会默认 2 是文件描述符，所以不用加 & 来代表 2 是文件描述符；而 1 由于在 \> 之后，故必须加上 &1 表示 stdout 文件描述符而不是一个名为 1 的文件
 
 ## 不懂的知识：
 - 暂无，该日内容量较少
