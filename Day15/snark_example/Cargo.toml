@@ -1,0 +1,8 @@
+[package]
+name = "snark_example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+spartan = { path = "/home/greatil/Spartan" }
+merlin = "3.0.0" 
