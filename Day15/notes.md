@@ -11,7 +11,7 @@
 - 记录入口、输入输出及自己的理解
 
 ## 成果
-- 阅读了官方仓库中 README.md 中的示例代码并进行理解
+- 阅读了官方仓库中 README.md 中的 SNARK 示例代码并进行理解
 - 本地创建了 `Day15/snark_example` ，运行了官方 SNARK 示例，代码如下
   ```Rust
   extern crate libspartan;

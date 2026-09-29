@@ -1,133 +1,136 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
-  <diagram name="第 1 页" id="EiKCG0UXALXcz2Bg7CJe">
-    <mxGraphModel dx="1310" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="RqAN5npF0YuVgAUyep_9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RqAN5npF0YuVgAUyep_9-1" target="RqAN5npF0YuVgAUyep_9-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RqAN5npF0YuVgAUyep_9-4" value="&lt;div&gt;将 R1CS 满足性问题编码为低度多项式：&lt;/div&gt;将 R1CS 满足性问题转到 sum-check 协议上" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="RqAN5npF0YuVgAUyep_9-3" connectable="0" vertex="1">
-          <mxGeometry y="2" relative="1" as="geometry">
-            <mxPoint x="108" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RqAN5npF0YuVgAUyep_9-1" value="R1CS instance" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="80" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="RqAN5npF0YuVgAUyep_9-2" value="A degree-3 multivariate polynomial" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="200" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9NCbLemoYoQnP5xcXKbQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9NCbLemoYoQnP5xcXKbQ-1" target="9NCbLemoYoQnP5xcXKbQ-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="9NCbLemoYoQnP5xcXKbQ-4" value="SPARK：&lt;div&gt;令已有的commit scheme 支持&lt;/div&gt;&lt;div&gt;高效稀疏多线性多项式&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="9NCbLemoYoQnP5xcXKbQ-3" connectable="0" vertex="1">
-          <mxGeometry x="-0.15" y="-1" relative="1" as="geometry">
-            <mxPoint x="81" y="16" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9NCbLemoYoQnP5xcXKbQ-1" value="已有的 Poly commit scheme" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="200" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9NCbLemoYoQnP5xcXKbQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9NCbLemoYoQnP5xcXKbQ-2" target="9NCbLemoYoQnP5xcXKbQ-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="9NCbLemoYoQnP5xcXKbQ-7" value="用于实现&lt;div&gt;对计算结构作出承诺&lt;div&gt;帮助降低后续验证成本&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="9NCbLemoYoQnP5xcXKbQ-6" connectable="0" vertex="1">
-          <mxGeometry x="-0.05" y="-1" relative="1" as="geometry">
-            <mxPoint x="61" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9NCbLemoYoQnP5xcXKbQ-2" value="支持 sparse multilinear poly commit scheme" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="320" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9NCbLemoYoQnP5xcXKbQ-5" value="Computation commitments" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="440" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9NCbLemoYoQnP5xcXKbQ-8" value="固定所承诺的多项式&lt;div&gt;并支持验证指定点求值&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="400" y="205" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9NCbLemoYoQnP5xcXKbQ-9" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;首先 Spartan 是为了验证 R1CS 的满足性问题的一族零知识证明体系&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;为了做到 Spartan 作者提出了三种技术，分别是 computation commitments, spark 和 低度多项式编码&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;computation commitments 的作用是对计算结构作出承诺 以便验证者后续进行高效验证&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;spark 的作用是让已有的多项式承诺方案支持高效处理稀疏多线性多项式&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;低度多项式编码的作用就是为了把 R1CS 接到 sum-check 上&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;从系统构造的关系来看 我们先用低度多项式编码把 R1CS 编码成低度多项式，即把R1CS 转变成支持 sum-check 的形式；&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;然后在另一方面将已有的多项式承诺方案利用 spark 转化成支持高效处理稀疏多线性多项式的承诺方案 以便后续利用 computation commitments 进行计算结构承诺从而达成后续 verifier 高效验证的能力&lt;/font&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（需要先付出一次公开预处理成本，对于结构相同的计算可复用）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="560" y="40" width="560" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="9NCbLemoYoQnP5xcXKbQ-10" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;待理解区域：&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;MLE&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;sum-check&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;zero knowledge&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Fiat-shamir&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;NIZK&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;SNARK&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="560" y="340" width="160" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="9NCbLemoYoQnP5xcXKbQ-11" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;疑问区域：&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;左侧线路后续如何发展（即定理5.1等）？并且如何与右侧会合？&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="720" y="340" width="400" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-1" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;官方示例调用流程&lt;/b&gt;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry y="520" width="280" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;官方论文流程&lt;/font&gt;&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry width="280" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_XdqN5sVEy-kd2yV6ByK-5" target="_XdqN5sVEy-kd2yV6ByK-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;SNARKGens::new()&lt;br&gt;生成公共参数 gens&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="40" y="680" width="200" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_XdqN5sVEy-kd2yV6ByK-6" target="_XdqN5sVEy-kd2yV6ByK-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;准备 inst, vars, inputs&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="40" y="920" width="200" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_XdqN5sVEy-kd2yV6ByK-7" target="_XdqN5sVEy-kd2yV6ByK-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;SNARK::encode()&lt;br&gt;得到 comm, decomm&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1160" width="200" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_XdqN5sVEy-kd2yV6ByK-8" target="_XdqN5sVEy-kd2yV6ByK-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;SNARK::prove()&lt;br&gt;生成 proof&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="320" y="800" width="200" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;proof.verify()&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;使用 comm, inputs, gens,&lt;br&gt;以及验证者 transcript&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1040" width="200" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_XdqN5sVEy-kd2yV6ByK-13" target="_XdqN5sVEy-kd2yV6ByK-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-13" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;NIZKGens::new()&lt;br&gt;生成公共参数 gens&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="680" y="760" width="200" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_XdqN5sVEy-kd2yV6ByK-14" target="_XdqN5sVEy-kd2yV6ByK-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-14" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;准备 inst, vars, inputs&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1080" width="200" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_XdqN5sVEy-kd2yV6ByK-15" target="_XdqN5sVEy-kd2yV6ByK-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-15" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;NIZK::prove()&lt;br&gt;生成 proof&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="960" y="760" width="200" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-16" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;proof.verify()&lt;br&gt;使用 inst, inputs, gens,&lt;br&gt;以及验证者 transcript&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="960" y="1080" width="200" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-21" value="SNARK:" style="swimlane;startSize=40;fontSize=30;" vertex="1" parent="1">
-          <mxGeometry y="600" width="560" height="760" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-22" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;NIZK:&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="640" y="600" width="560" height="760" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-27" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;图注：&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
-          <mxGeometry y="1360" width="560" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-28" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;相似模块&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_XdqN5sVEy-kd2yV6ByK-27">
-          <mxGeometry x="40" y="80" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-29" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;特有模块&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="_XdqN5sVEy-kd2yV6ByK-27">
-          <mxGeometry x="40" y="160" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_XdqN5sVEy-kd2yV6ByK-30" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;大体相似模块&lt;br&gt;具体细节有差&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="_XdqN5sVEy-kd2yV6ByK-27">
-          <mxGeometry x="280" y="80" width="120" height="40" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram name="第 1 页" id="EiKCG0UXALXcz2Bg7CJe">
+        <mxGraphModel dx="1871" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="RqAN5npF0YuVgAUyep_9-3" edge="1" parent="1" source="RqAN5npF0YuVgAUyep_9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RqAN5npF0YuVgAUyep_9-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RqAN5npF0YuVgAUyep_9-4" connectable="0" parent="RqAN5npF0YuVgAUyep_9-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;div&gt;将 R1CS 满足性问题编码为低度多项式：&lt;/div&gt;将 R1CS 满足性问题转到 sum-check 协议上" vertex="1">
+                    <mxGeometry relative="1" y="2" as="geometry">
+                        <mxPoint x="108" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RqAN5npF0YuVgAUyep_9-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="R1CS instance" vertex="1">
+                    <mxGeometry height="40" width="120" x="80" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="RqAN5npF0YuVgAUyep_9-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="A degree-3 multivariate polynomial" vertex="1">
+                    <mxGeometry height="40" width="120" x="80" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="9NCbLemoYoQnP5xcXKbQ-3" edge="1" parent="1" source="9NCbLemoYoQnP5xcXKbQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9NCbLemoYoQnP5xcXKbQ-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9NCbLemoYoQnP5xcXKbQ-4" connectable="0" parent="9NCbLemoYoQnP5xcXKbQ-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="SPARK：&lt;div&gt;令已有的commit scheme 支持&lt;/div&gt;&lt;div&gt;高效稀疏多线性多项式&lt;/div&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.15" y="-1" as="geometry">
+                        <mxPoint x="81" y="16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9NCbLemoYoQnP5xcXKbQ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="已有的 Poly commit scheme" vertex="1">
+                    <mxGeometry height="40" width="120" x="280" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="9NCbLemoYoQnP5xcXKbQ-6" edge="1" parent="1" source="9NCbLemoYoQnP5xcXKbQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9NCbLemoYoQnP5xcXKbQ-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9NCbLemoYoQnP5xcXKbQ-7" connectable="0" parent="9NCbLemoYoQnP5xcXKbQ-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="用于实现&lt;div&gt;对计算结构作出承诺&lt;div&gt;帮助降低后续验证成本&lt;/div&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.05" y="-1" as="geometry">
+                        <mxPoint x="61" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9NCbLemoYoQnP5xcXKbQ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="支持 sparse multilinear poly commit scheme" vertex="1">
+                    <mxGeometry height="40" width="120" x="280" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="9NCbLemoYoQnP5xcXKbQ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Computation commitments" vertex="1">
+                    <mxGeometry height="40" width="120" x="280" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="9NCbLemoYoQnP5xcXKbQ-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="固定所承诺的多项式&lt;div&gt;并支持验证指定点求值&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="30" width="140" x="400" y="205" as="geometry"/>
+                </mxCell>
+                <mxCell id="9NCbLemoYoQnP5xcXKbQ-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;首先 Spartan 是为了验证 R1CS 的满足性问题的一族零知识证明体系&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;为了做到 Spartan 作者提出了三种技术，分别是 computation commitments, spark 和 低度多项式编码&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;computation commitments 的作用是对计算结构作出承诺 以便验证者后续进行高效验证&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;spark 的作用是让已有的多项式承诺方案支持高效处理稀疏多线性多项式&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;低度多项式编码的作用就是为了把 R1CS 接到 sum-check 上&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;从系统构造的关系来看 我们先用低度多项式编码把 R1CS 编码成低度多项式，即把R1CS 转变成支持 sum-check 的形式；&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;然后在另一方面将已有的多项式承诺方案利用 spark 转化成支持高效处理稀疏多线性多项式的承诺方案 以便后续利用 computation commitments 进行计算结构承诺从而达成后续 verifier 高效验证的能力&lt;/font&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（需要先付出一次公开预处理成本，对于结构相同的计算可复用）&lt;/span&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="300" width="560" x="560" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9NCbLemoYoQnP5xcXKbQ-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;待理解区域：&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;MLE&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;sum-check&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;zero knowledge&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Fiat-shamir&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;NIZK&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;SNARK&lt;/font&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="160" width="160" x="560" y="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="9NCbLemoYoQnP5xcXKbQ-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;疑问区域：&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;左侧线路后续如何发展（即定理5.1等）？并且如何与右侧会合？&lt;/font&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="160" width="400" x="720" y="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;官方示例调用流程&lt;/b&gt;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="80" width="280" y="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;论文核心技术关系&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="80" width="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-17" edge="1" parent="1" source="_XdqN5sVEy-kd2yV6ByK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_XdqN5sVEy-kd2yV6ByK-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;SNARKGens::new()&lt;br&gt;生成公共参数 gens&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="120" width="200" x="40" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-18" edge="1" parent="1" source="_XdqN5sVEy-kd2yV6ByK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="_XdqN5sVEy-kd2yV6ByK-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;准备 inst, vars, inputs&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="120" width="200" x="40" y="920" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-19" edge="1" parent="1" source="_XdqN5sVEy-kd2yV6ByK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_XdqN5sVEy-kd2yV6ByK-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;SNARK::encode()&lt;br&gt;得到 comm, decomm&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="120" width="200" x="40" y="1160" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-20" edge="1" parent="1" source="_XdqN5sVEy-kd2yV6ByK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_XdqN5sVEy-kd2yV6ByK-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;SNARK::prove()&lt;br&gt;生成 proof&amp;nbsp;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="120" width="200" x="320" y="800" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;proof.verify()&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;使用 comm, inputs, gens,&lt;br&gt;以及验证者 transcript&lt;/font&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="120" width="200" x="320" y="1040" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-23" edge="1" parent="1" source="_XdqN5sVEy-kd2yV6ByK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_XdqN5sVEy-kd2yV6ByK-14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;NIZKGens::new()&lt;br&gt;生成公共参数 gens&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="120" width="200" x="680" y="760" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-24" edge="1" parent="1" source="_XdqN5sVEy-kd2yV6ByK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_XdqN5sVEy-kd2yV6ByK-15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;准备 inst, vars, inputs&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="120" width="200" x="680" y="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-25" edge="1" parent="1" source="_XdqN5sVEy-kd2yV6ByK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_XdqN5sVEy-kd2yV6ByK-16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;NIZK::prove()&lt;br&gt;生成 proof&amp;nbsp;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="120" width="200" x="960" y="760" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;proof.verify()&lt;br&gt;使用 inst, inputs, gens,&lt;br&gt;以及验证者 transcript&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="120" width="200" x="960" y="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-21" parent="1" style="swimlane;startSize=40;fontSize=30;" value="SNARK:" vertex="1">
+                    <mxGeometry height="760" width="560" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-22" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;NIZK:&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="760" width="560" x="640" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-27" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;图注：&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="240" width="560" y="1360" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-28" parent="_XdqN5sVEy-kd2yV6ByK-27" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;作用相似步骤&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="40" width="120" x="40" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-29" parent="_XdqN5sVEy-kd2yV6ByK-27" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;特有模块&lt;/b&gt;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="40" width="120" x="40" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="_XdqN5sVEy-kd2yV6ByK-30" parent="_XdqN5sVEy-kd2yV6ByK-27" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;大体相似步骤&lt;br&gt;具体细节有差&lt;/b&gt;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="40" width="120" x="280" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="u0xarNcSwheSBEwU4kkI-1" parent="_XdqN5sVEy-kd2yV6ByK-27" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;箭头表示示例执行顺序，&lt;br&gt;不表示每一步只使用上一步的输出&lt;/font&gt;&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="40" width="240" x="280" y="160" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
