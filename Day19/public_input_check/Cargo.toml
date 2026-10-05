@@ -1,0 +1,10 @@
+[package]
+name = "public_input_check"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+spartan = { path = "/home/greatil/Spartan" }
+merlin = "3.0.0"
+curve25519-dalek = { version = "4.1.1", features = ["rand_core"] }
+rand = "0.8.5"
